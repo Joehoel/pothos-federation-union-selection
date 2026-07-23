@@ -1,0 +1,2 @@
+patchedDependencies:
+  '@pothos/plugin-federation@4.4.3': patches/@pothos__plugin-federation@4.4.3.patch

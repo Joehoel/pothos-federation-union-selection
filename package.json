@@ -1,0 +1,24 @@
+{
+  "name": "pothos-federation-union-selection",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Minimal repro: @pothos/plugin-federation SelectionFromShape cannot express inline fragments for union/interface selections",
+  "scripts": {
+    "test": "vitest run",
+    "check-types": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@apollo/composition": "2.14.0",
+    "@apollo/subgraph": "2.14.0",
+    "@pothos/core": "4.13.1",
+    "@pothos/plugin-directives": "4.3.1",
+    "@pothos/plugin-federation": "4.4.3",
+    "graphql": "16.13.2",
+    "graphql-tag": "2.12.6"
+  },
+  "devDependencies": {
+    "typescript": "7.0.2",
+    "vitest": "3.2.4"
+  }
+}
